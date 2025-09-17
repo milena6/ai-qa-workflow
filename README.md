@@ -4,7 +4,7 @@
 This project demonstrates how Model Context Protocols (MCPs) can enhance and streamline Quality Assurance (QA) workflows. It provides practical examples and test automation using Playwright, focusing on improving efficiency, reliability, and scalability in QA processes.
 
 ## Features
-- Automated end-to-end tests using Playwright
+- Automated end-to-end testing process: docs → tickets → manual tests → automated tests (incl. PRs) → bug reports
 - Integration with MCPs to optimize test execution and reporting
 - Example configurations for scalable QA environments
 - Playwright reports and trace files for test analysis
@@ -18,7 +18,7 @@ This project demonstrates how Model Context Protocols (MCPs) can enhance and str
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/milena6/ai-qa-workflow.git
+   git clone https://github.com/milena-alp/scale-qa-test.git
    cd scale-qa-test
    ```
 2. Install dependencies:
