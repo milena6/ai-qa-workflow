@@ -1,7 +1,5 @@
-<<<<<<< HEAD
-# ai-qa-workflow
-=======
-# Scale QA Test
+
+# AI-assisted QA Workflow
 
 This project demonstrates how Model Context Protocols (MCPs) can enhance and streamline Quality Assurance (QA) workflows. It provides practical examples and test automation using Playwright, focusing on improving efficiency, reliability, and scalability in QA processes.
 
