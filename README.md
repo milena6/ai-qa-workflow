@@ -18,7 +18,7 @@ This project demonstrates how Model Context Protocols (MCPs) can enhance and str
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/milena-alp/scale-qa-test.git
+   git clone https://github.com/milena6/ai-qa-workflow.git
    cd scale-qa-test
    ```
 2. Install dependencies:
