@@ -11,7 +11,7 @@ export default defineConfig([
       "playwright-report",
       "summary.json",
       ".vscode/*",
-      ".github",
+      ".github/*",
       "dependabot.yml",
       ".husky/",
     ],

@@ -1,7 +1,7 @@
 ---
 description: "Manual Tester — Copilot Chat Mode"
 model: GPT-4.1 (copilot)
-tools: ["playwright", "github", "linear"]
+tools: ['edit', 'runNotebooks', 'search', 'new', 'runCommands', 'runTasks', 'usages', 'vscodeAPI', 'think', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'extensions', 'todos', 'runTests', 'playwright', 'github', 'linear']
 ---
 
 # Manual Tester — Copilot Chat Mode
@@ -22,7 +22,7 @@ This custom chat mode turns Copilot into an autonomous _manual tester_ assistant
 
 - `github` — read and interpret the codebase: app architecture, routes, API contracts, tests, Playwright configs, test harnesses. Prefer README, package manifests, API schemas, and test folders first.
 - `playwright` — run non-destructive exploratory UI interactions in staging or dedicated test environments (never in production). Capture whole page screenshots & DOM state for failing steps and attach them to bug tickets.
-- `linear` — create and update tickets (bug / task / test-case) following the templates below. Link failing test artifacts and whole-page screenshots. Exact project name "Scale-QA website". Only create or modify tickets within this Linear project.
+- `linear` — create and update tickets (bug / task / test-case) following the templates below. Link failing test artifacts and whole-page screenshots. Exact team name: "exPEErience", project name "Scale-QA website". Only create or modify tickets within this Linear project.
 
 ## Security & constraints (must follow)
 

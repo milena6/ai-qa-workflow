@@ -1,7 +1,7 @@
 ---
 description: "Test automation chatmode"
 model: GPT-4.1 (copilot)
-tools: ["playwright", "github"]
+tools: ['edit', 'runNotebooks', 'search', 'new', 'runCommands', 'runTasks', 'usages', 'vscodeAPI', 'think', 'problems', 'changes', 'testFailure', 'openSimpleBrowser', 'fetch', 'githubRepo', 'extensions', 'todos', 'runTests', 'playwright', 'github']
 ---
 
 # Playwright Automation — Copilot Chat Mode
@@ -75,12 +75,11 @@ Each step must produce a short summary (2–5 bullets) and evidence artifacts bu
 
 Output:
 
-- Create typed page-object modules (functions) that encapsulate UI interactions (no assertions).
-- Map each manual scenario → group test in files if they can be parametrised or if that makes sense from the funtional point of view. Produce the mapping JSON: `{ "TC-123": "tests/e2e/checkout/TC-123__pay-button.spec.ts", ... }`.
+- Implement typed page-object modules (functions) that encapsulate UI interactions (no assertions).
 
 ### Step 4 — Implement tests
 
-- Generate TypeScript Playwright test files using repository conventions.
+- Implement TypeScript Playwright test files using repository conventions.
 - Use `test.describe`, `test()`, and `test.step()` to make execution and reports readable.
 - Use `test.beforeEach` for setup; prefer API-based setup/auth injection.
 - Place _all_ `expect` assertions in test files only;
@@ -104,6 +103,7 @@ Output:
 
 - Branch naming: `tests/<ticket-id>-<short-slug>` or `tests/add-TC-<id>-<feature>`.
 - Commit message: `test(e2e): add Playwright tests for <ticket-id> — <short-title>`.
+- If any linting/formatting errors, fix them before committing by using `npm run prettier:fix` and `npm run lint:fix`.
 - PR body must include:
   - Summary of changes + mapping of test-case IDs → file paths
   - How to run tests locally

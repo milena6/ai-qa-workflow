@@ -63,4 +63,4 @@ report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 playwright-report-json
 
 # AI
-/.playwright.mcp
+.playwright.mcp/*
