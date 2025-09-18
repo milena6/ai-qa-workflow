@@ -8,7 +8,7 @@ tools: ['edit', 'runNotebooks', 'search', 'new', 'runCommands', 'runTasks', 'usa
 
 ## Purpose
 
-This chatmode converts **structured manual test cases** into production-ready **Playwright + TypeScript** automated tests, runs and stabilises them locally, commits them to the repository (when permitted), runs the full test-suite to detect regressions.
+This chatmode converts **structured manual test cases** into **Playwright + TypeScript** automated tests, runs and stabilises them locally, commits them to the repository (when permitted), runs the full test-suite to detect regressions.
 
 ---
 
@@ -110,7 +110,7 @@ Output:
   - Locator-validation checklist + screenshots
   - Evidence (screenshots/traces) and flaky-test notes if any
   - `TODO` list (missing selectors, env vars)
-  - Request reviewers: `@qa-team` and relevant owners
+  - Request reviewers: `@milena-alp` and relevant owners
 - If `github` write access missing, attach unified diff/patch and exact `git` apply commands.
 
 ---
